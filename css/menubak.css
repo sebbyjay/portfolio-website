@@ -1,0 +1,76 @@
+/*** Menu ***/
+.logo{
+	width:70px;
+	height:70px;
+    margin: 17px 15px;
+	border-radius:35px;
+}
+.menu {
+    width: 100%;
+    display:inline-flex;
+    background-color: #1d1d1d;
+}
+
+.menu h3 {
+    padding: 40px 10px;
+    width: 270px;
+    font-family: 'Roboto Condensed';
+}
+.menu ul {
+    padding: 15px 10px;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu ul li {
+    margin: 5px;
+    padding: 0px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #d8d8d8;
+}
+/*** Submenu ***/
+.submenu-1, .submenu-2 {
+    display: none;
+}
+.submenu-1 ul, .submenu-2 ul {
+    padding: 0px;
+}
+.menu ul li:hover .submenu-1, .menu ul li:hover .submenu-2 {
+    display: block;
+    width: 140px;
+    position: absolute;
+    background-color: #212121;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.menu ul li:hover .submenu-1 ul, .menu ul li:hover .submenu-2 ul {
+    display: block;
+    position: absolute;
+    background-color: #212121;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu ul li:hover .submenu-1 ul li, .menu ul li:hover .submenu-2 ul li{
+    padding: 5px;
+
+}
+.submenu-1 a:hover, .submenu-2 a:hover{
+    color: #444fff;
+}
+
+/*** Button ***/
+button {
+    border: none;
+	border-radius: 3px;
+	background-color: #2d2d2d;
+    padding: 6px 8px;
+    margin: 0px 2px;
+}
+button:hover {
+    background-color: #3d3d3d;
+}
+

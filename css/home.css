@@ -1,0 +1,189 @@
+/*** Main ***/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body {
+    background-image: url(../images/dbubble.png);
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-color: #222;
+    height: 100vh;
+    margin: 0;
+    font-family: "Lato", Arial;
+    font-weight: 400;
+    color: #f1f1f1;
+    font-size: larger;
+    letter-spacing: -.2px;
+    position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0px;
+    padding-top: 0px;
+}
+.page {
+    color: #f1f1f1;
+}
+.border {
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right,#223366, #4f55cc );
+}
+/*** about ***/
+.about {
+    font-size: large;
+    min-height: 70vh;
+    margin: 15vh 15vw 0px 15vw;
+}
+.about h1 {
+    font-size: 80px;
+    letter-spacing: -3.8px;
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+}
+.about p {
+    line-height: 24px;
+}
+.about ul {
+    padding: 15px;
+}
+.bio {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+}
+.bio p {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+}
+#arrow {
+    text-align: center;
+}
+#arrow img {
+    width: 30px;
+    height: 30px;
+    margin: -1px;
+    padding: 10px
+}
+
+.overview {
+    background-image: url(../images/bg.png);
+    opacity: 1;
+    background-size: cover;
+	background-position: center;
+    text-align: center;
+    padding: 10px 280px;
+}
+.socials {
+    padding: 0px;
+}
+.socials ul{
+    padding: 0px;
+}
+.socials li{
+    list-style: none;
+    display: inline-flex;
+    font-size: 36px;
+    margin: 0px 10px;
+    padding: 15px;   
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials li a:hover {
+    color: #444;
+    transition: .4s;
+}
+#instagram a:hover{
+    color: rgb(255, 94, 0);
+    transition: .4s;
+}
+#twitter a:hover{
+    color: rgb(0, 174, 243);
+    transition: .4s;
+}
+#linkedin a:hover{
+    color: rgb(74, 141, 230);
+    transition: .4s;
+}
+#spotify a:hover{
+    color: rgb(64, 230, 64);
+    transition: .4s;
+}
+#steam a:hover{
+    color: rgb(61, 109, 165);
+    transition: .4s;
+}
+#github a:hover{
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+/*** Spotify Playlist ***/
+.info {
+    background-image: url(../images/blackmesa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+    min-height: 550px;
+    padding: 0vh 15vw 0px 15vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}.info h4 {
+    margin: 0px;
+    padding: 25px;
+}
+#infocont{
+    display: flex;
+}
+#infocont p{
+    text-align: right;
+    padding: 0px 30px 0px 0px;
+}
+#playlist {
+    padding: 0px 35px 0px 0px;
+    text-align: left;
+}
+#playlist a{
+    text-decoration: none;
+    color: #ddd;
+    opacity: 50%;
+}
+#playlist a:hover{
+    transition: .4s;
+    color: rgb(64, 230, 64);
+}
+/*** Bibliography ***/
+.biblio {
+    background-image: url(../images/lines.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+    font-size: medium;
+    min-height: 200px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    padding: 20px 280px;
+}
+.biblio h4 {
+    font-size: 18px;
+    margin: 10px;
+}
+.biblio ul {
+    text-align: center;
+    list-style: none;
+    line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+.biblio a{
+    text-decoration: none;
+    color: inherit;
+}
+.biblio a:hover {
+	color: #a68;
+}

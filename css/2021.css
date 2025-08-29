@@ -1,0 +1,46 @@
+.heading {
+    font-size: large;
+    min-height: 150px;
+    margin: 5vh 15vw 0px 15vw;
+    text-shadow: 2px 2px 2px black;
+}
+.powerpoint {
+    background-image: url(../images/lines.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+    display:flex;
+    font-size: medium;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 1px 1px 5px black;
+    min-height: 648px;
+    padding: 20px 280px;
+}
+.powerpoint h4 {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.powerpoint ul {
+    text-align: center;
+    list-style: none;
+    line-height: 0px;
+    padding: 0px;
+}
+.powerpoint a {
+    text-decoration: none;
+    color: inherit;
+}
+.powerpoint iframe{
+    display: inline-flex;
+}
+.powerpoint a:hover {
+	color: #a68;
+}
+#pp {
+    display: block;
+}
+#whs {
+    width: 700px;
+    margin: 0px 30px;
+}
